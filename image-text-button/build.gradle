@@ -10,8 +10,8 @@ ext {
 
     libraryDescription = 'A Image-Text mixed button on Android'
 
-    siteUrl = 'https://github.com/mutoukenji/AndroidImageTextButton'
-    gitUrl = 'https://github.com/mutoukenji/AndroidImageTextButton.git'
+    siteUrl = 'https://github.com/mutoukenji/AndroidWidgets'
+    gitUrl = 'https://github.com/mutoukenji/AndroidWidgets.git'
 
     libraryVersion = '0.0.3'
 
@@ -20,7 +20,7 @@ ext {
     developerEmail = 'mutoukenji@gmail.com'
 
     licenseName = 'MIT'
-    licenseUrl = 'https://raw.githubusercontent.com/mutoukenji/AndroidImageTextButton/master/LICENSE'
+    licenseUrl = 'https://raw.githubusercontent.com/mutoukenji/AndroidWidgets/master/LICENSE'
     allLicenses = ["MIT"]
 }
 
