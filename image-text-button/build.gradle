@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/mutoukenji/AndroidImageTextButton'
     gitUrl = 'https://github.com/mutoukenji/AndroidImageTextButton.git'
 
-    libraryVersion = '0.0.2'
+    libraryVersion = '0.0.3'
 
     developerId = 'mutoukenji'
     developerName = 'MutouKenji'

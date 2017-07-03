@@ -69,7 +69,7 @@ public class ImageTextButton extends LinearLayout {
     private void init(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         this.addView(imageView);
         this.addView(textView);
-
+        this.setGravity(Gravity.CENTER);
         if(attrs == null) {
             return;
         }
