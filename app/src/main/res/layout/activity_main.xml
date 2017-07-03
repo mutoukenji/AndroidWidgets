@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tech.yaog.widgets.MainActivity">
+
+    <tech.yaog.widgets.ImageTextButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:drawableHeight="40dp"
+        app:drawableWidth="40dp"
+        app:drawablePadding="16dp"
+        app:drawablePosition="top"
+        android:background="#AABB00"
+        android:text="ABC"
+        android:textSize="16sp"
+        android:color="#000000"
+        android:drawable="@mipmap/ic_launcher"
+        >
+
+    </tech.yaog.widgets.ImageTextButton>
+
+</android.support.constraint.ConstraintLayout>
