@@ -16,30 +16,7 @@ import tech.yaog.widgets.numberickeypad.R;
 
 /**
  * 3x4数字键盘
- * <p>
- *     默认布局为
- *     <tr>
- *         <td>1</td>
- *         <td>2</td>
- *         <td>3</td>
- *     </tr>
- *     <tr>
- *         <td>4</td>
- *         <td>5</td>
- *         <td>6</td>
- *     </tr>
- *     <tr>
- *         <td>7</td>
- *         <td>8</td>
- *         <td>9</td>
- *     </tr>
- *     <tr>
- *         <td>*</td>
- *         <td>0</td>
- *         <td>#</td>
- *     </tr>
  *     可以自定义按钮文字、背景、字号字色、padding、margin
- * </p>
  * Created by ygl_h on 2017/7/3.
  */
 
