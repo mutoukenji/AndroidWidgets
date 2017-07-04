@@ -6,6 +6,7 @@ import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.os.Build;
 import android.util.AttributeSet;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -247,7 +248,7 @@ public class NumericKeypad extends GridLayout implements View.OnClickListener {
                 buttons[i].setText(text);
             }
             int textSize = ta.getDimensionPixelSize(textSizeAttrs[i], allTextSize);
-            buttons[i].setTextSize(textSize);
+            buttons[i].setTextSize(TypedValue.COMPLEX_UNIT_PX,textSize);
         }
 
         ta.recycle();

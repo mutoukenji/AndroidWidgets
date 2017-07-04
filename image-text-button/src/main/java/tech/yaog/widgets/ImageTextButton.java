@@ -6,6 +6,7 @@ import android.content.res.TypedArray;
 import android.os.Build;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -78,7 +79,7 @@ public class ImageTextButton extends LinearLayout {
         String text = ta.getString(R.styleable.ImageTextButton_android_text);
         textView.setText(text);
         float textSize = ta.getDimension(R.styleable.ImageTextButton_android_textSize, 0);
-        textView.setTextSize(textSize);
+        textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
         int color = ta.getColor(R.styleable.ImageTextButton_android_color, 0);
         textView.setTextColor(color);
         int imageResourceId = ta.getResourceId(R.styleable.ImageTextButton_android_drawable, 0);
