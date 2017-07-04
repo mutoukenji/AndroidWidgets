@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumericKeypad">
+        <attr name="buttonWidth" format="dimension">
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+        <attr name="buttonHeight" format="dimension">
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+        <attr name="buttonPaddingLeft" format="dimension"/>
+        <attr name="buttonPaddingRight" format="dimension"/>
+        <attr name="buttonPaddingTop" format="dimension"/>
+        <attr name="buttonPaddingBottom" format="dimension"/>
+        <attr name="buttonPaddingStart" format="dimension"/>
+        <attr name="buttonPaddingEnd" format="dimension"/>
+        <attr name="buttonPadding" format="dimension"/>
+        <attr name="buttonMarginLeft" format="dimension"/>
+        <attr name="buttonMarginRight" format="dimension"/>
+        <attr name="buttonMarginTop" format="dimension"/>
+        <attr name="buttonMarginBottom" format="dimension"/>
+        <attr name="buttonMarginStart" format="dimension"/>
+        <attr name="buttonMarginEnd" format="dimension"/>
+        <attr name="buttonMargin" format="dimension"/>
+        <attr name="android:textColor" />
+        <attr name="textColorOne" format="color|reference" />
+        <attr name="textColorTwo" format="color|reference" />
+        <attr name="textColorThree" format="color|reference" />
+        <attr name="textColorFour" format="color|reference" />
+        <attr name="textColorFive" format="color|reference" />
+        <attr name="textColorSix" format="color|reference" />
+        <attr name="textColorSeven" format="color|reference" />
+        <attr name="textColorEight" format="color|reference" />
+        <attr name="textColorNine" format="color|reference" />
+        <attr name="textColorStar" format="color|reference" />
+        <attr name="textColorZero" format="color|reference" />
+        <attr name="textColorSharp" format="color|reference" />
+        <attr name="android:textSize" />
+        <attr name="textSizeOne" format="dimension" />
+        <attr name="textSizeTwo" format="dimension" />
+        <attr name="textSizeThree" format="dimension" />
+        <attr name="textSizeFour" format="dimension" />
+        <attr name="textSizeFive" format="dimension" />
+        <attr name="textSizeSix" format="dimension" />
+        <attr name="textSizeSeven" format="dimension" />
+        <attr name="textSizeEight" format="dimension" />
+        <attr name="textSizeNine" format="dimension" />
+        <attr name="textSizeStar" format="dimension" />
+        <attr name="textSizeZero" format="dimension" />
+        <attr name="textSizeSharp" format="dimension" />
+        <attr name="buttonBackground" format="color|reference" />
+        <attr name="buttonBackgroundOne" format="color|reference" />
+        <attr name="buttonBackgroundTwo" format="color|reference" />
+        <attr name="buttonBackgroundThree" format="color|reference" />
+        <attr name="buttonBackgroundFour" format="color|reference" />
+        <attr name="buttonBackgroundFive" format="color|reference" />
+        <attr name="buttonBackgroundSix" format="color|reference" />
+        <attr name="buttonBackgroundSeven" format="color|reference" />
+        <attr name="buttonBackgroundEight" format="color|reference" />
+        <attr name="buttonBackgroundNine" format="color|reference" />
+        <attr name="buttonBackgroundStar" format="color|reference" />
+        <attr name="buttonBackgroundZero" format="color|reference" />
+        <attr name="buttonBackgroundSharp" format="color|reference" />
+        <attr name="textOne" format="string" />
+        <attr name="textTwo" format="string" />
+        <attr name="textThree" format="string" />
+        <attr name="textFour" format="string" />
+        <attr name="textFive" format="string" />
+        <attr name="textSix" format="string" />
+        <attr name="textSeven" format="string" />
+        <attr name="textEight" format="string" />
+        <attr name="textNine" format="string" />
+        <attr name="textStar" format="string" />
+        <attr name="textZero" format="string" />
+        <attr name="textSharp" format="string" />
+    </declare-styleable>
+</resources>

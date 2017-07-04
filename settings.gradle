@@ -1,1 +1,1 @@
-include ':app', ':image-text-button'
+include ':app', ':image-text-button', ':numeric-keypad'
