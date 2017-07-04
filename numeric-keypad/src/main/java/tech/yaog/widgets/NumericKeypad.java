@@ -179,14 +179,24 @@ public class NumericKeypad extends GridLayout implements View.OnClickListener {
 
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.NumericKeypad, defStyleAttr, defStyleRes);
 
-        buttonWidth = ta.getInt(R.styleable.NumericKeypad_buttonWidth, 0);
+        try {
+            buttonWidth = ta.getInt(R.styleable.NumericKeypad_buttonWidth, 0);
+        }
+        catch (Exception e) {
+            buttonWidth = 0;
+        }
         if(buttonWidth != ViewGroup.LayoutParams.MATCH_PARENT
                 && buttonWidth != ViewGroup.LayoutParams.WRAP_CONTENT) {
             //noinspection ResourceType
             buttonWidth = ta.getDimensionPixelSize(R.styleable.NumericKeypad_buttonWidth,
                     ViewGroup.LayoutParams.WRAP_CONTENT);
         }
-        buttonHeight = ta.getInt(R.styleable.NumericKeypad_buttonHeight, 0);
+        try {
+            buttonHeight = ta.getInt(R.styleable.NumericKeypad_buttonHeight, 0);
+        }
+        catch (Exception e) {
+            buttonHeight = 0;
+        }
         if(buttonHeight != ViewGroup.LayoutParams.MATCH_PARENT
                 && buttonHeight != ViewGroup.LayoutParams.WRAP_CONTENT) {
             //noinspection ResourceType
