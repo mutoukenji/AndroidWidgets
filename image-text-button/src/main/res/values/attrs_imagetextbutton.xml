@@ -5,8 +5,16 @@
         <attr name="android:color" />
         <attr name="android:drawable" />
         <attr name="drawablePadding" format="dimension" />
-        <attr name="drawableWidth" format="dimension" />
-        <attr name="drawableHeight" format="dimension" />
+        <attr name="drawableWidth" format="dimension|enum">
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+        <attr name="drawableHeight" format="dimension|enum">
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
         <attr name="drawablePosition">
             <enum name="top" value="48" />
             <enum name="bottom" value="80" />

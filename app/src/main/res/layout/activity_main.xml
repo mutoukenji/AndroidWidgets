@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="tech.yaog.widgets.MainActivity">
 
-    <tech.yaog.widgets.ImageTextButton
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:drawableHeight="40dp"
-        app:drawableWidth="40dp"
-        app:drawablePadding="16dp"
-        app:drawablePosition="top"
-        android:background="#AABB00"
-        android:text="ABC"
-        android:textSize="16sp"
-        android:color="#000000"
-        android:drawable="@mipmap/ic_launcher"
-        >
+        android:orientation="vertical">
 
-    </tech.yaog.widgets.ImageTextButton>
 
-</android.support.constraint.ConstraintLayout>
+        <tech.yaog.widgets.ImageEditText
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:drawableLeft="@mipmap/ic_launcher_round"
+            android:hint="123456"
+            app:iee_drawableHeight="wrap_content"
+            app:iee_drawableWidth="wrap_content"/>
+
+        <tech.yaog.widgets.ImageEditText
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:drawableLeft="@mipmap/ic_launcher_round"
+            android:hint="123456"
+            app:iee_drawableHeight="match_parent"
+            app:iee_drawableWidth="match_parent"/>
+
+        <tech.yaog.widgets.ImageEditText
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:drawableLeft="@mipmap/ic_launcher_round"
+            android:hint="123456"
+            app:iee_drawableHeight="100dp"
+            app:iee_drawableWidth="20dp"/>
+
+        <tech.yaog.widgets.ImageEditText
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:drawableTop="@mipmap/ic_launcher_round"
+            android:hint="123456"
+            app:iee_drawableHeight="match_parent"
+            app:iee_drawableWidth="match_parent"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</ScrollView>

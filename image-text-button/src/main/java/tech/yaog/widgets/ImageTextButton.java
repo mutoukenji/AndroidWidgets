@@ -89,21 +89,25 @@ public class ImageTextButton extends LinearLayout {
         params.gravity = Gravity.CENTER;
         textView.setLayoutParams(params);
 
-        //noinspection ResourceType
-        drawableWidth = ta.getDimensionPixelSize(R.styleable.ImageTextButton_drawableWidth, -2);
-        //noinspection ResourceType
-        drawableHeight = ta.getDimensionPixelSize(R.styleable.ImageTextButton_drawableHeight, -2);
-        if(drawableWidth == -2) {
-            drawableWidth = LayoutParams.WRAP_CONTENT;
+        try {
+            drawableWidth = ta.getInteger(R.styleable.ImageTextButton_drawableWidth, -3);
         }
-        else if(drawableWidth == -1) {
-            drawableWidth = LayoutParams.MATCH_PARENT;
+        catch (Exception e){
+            drawableWidth = -3;
         }
-        if(drawableHeight == -2) {
-            drawableHeight = LayoutParams.WRAP_CONTENT;
+        if (drawableWidth == -3) {
+            //noinspection ResourceType
+            drawableWidth = ta.getDimensionPixelSize(R.styleable.ImageTextButton_drawableWidth, -2);
         }
-        else if(drawableHeight == -1) {
-            drawableHeight = LayoutParams.MATCH_PARENT;
+        try {
+            drawableHeight = ta.getInteger(R.styleable.ImageTextButton_drawableHeight, -3);
+        }
+        catch (Exception e){
+            drawableHeight = -3;
+        }
+        if (drawableHeight == -3) {
+            //noinspection ResourceType
+            drawableHeight = ta.getDimensionPixelSize(R.styleable.ImageTextButton_drawableHeight, -2);
         }
         drawablePadding = ta.getDimensionPixelSize(R.styleable.ImageTextButton_drawablePadding, 0);
         drawablePosition = ta.getInt(R.styleable.ImageTextButton_drawablePosition, POSITION_LEFT);

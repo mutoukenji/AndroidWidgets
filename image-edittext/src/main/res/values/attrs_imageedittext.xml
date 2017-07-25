@@ -1,0 +1,14 @@
+<resources>
+    <declare-styleable name="ImageEditText">
+        <attr name="iee_drawableWidth" format="dimension|enum">
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+        <attr name="iee_drawableHeight" format="dimension|enum">
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+    </declare-styleable>
+</resources>
