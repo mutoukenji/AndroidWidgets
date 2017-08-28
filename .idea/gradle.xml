@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/fontable-textview" />
             <option value="$PROJECT_DIR$/image-edittext" />
             <option value="$PROJECT_DIR$/image-text-button" />
             <option value="$PROJECT_DIR$/numeric-keypad" />
