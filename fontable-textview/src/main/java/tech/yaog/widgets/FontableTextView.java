@@ -47,7 +47,7 @@ public class FontableTextView extends android.support.v7.widget.AppCompatTextVie
         if (customFont != null) {
             if (font == null || !font.equals(customFont)) {
                 try {
-                    Typeface typeFace = Typeface.createFromAsset(this.getContext().getAssets(), customFont);
+                    Typeface typeFace = FontManager.getFont(getContext(), customFont);
                     setTypeface(typeFace);
                     font = customFont;
                 } catch (Exception e) {
