@@ -20,29 +20,20 @@
             app:iee_drawableHeight="wrap_content"
             app:iee_drawableWidth="wrap_content"/>
 
-        <tech.yaog.widgets.ImageEditText
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:drawableLeft="@mipmap/ic_launcher_round"
-            android:hint="123456"
-            app:iee_drawableHeight="match_parent"
-            app:iee_drawableWidth="match_parent"/>
+        <tech.yaog.widgets.ImageTextButton
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:drawableHeight="15dp"
+            app:drawableWidth="15dp"
+            app:drawablePadding="2dp"
+            app:drawablePosition="end"
+            android:drawable="@mipmap/ic_launcher"/>
 
-        <tech.yaog.widgets.ImageEditText
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:drawableLeft="@mipmap/ic_launcher_round"
-            android:hint="123456"
-            app:iee_drawableHeight="100dp"
-            app:iee_drawableWidth="20dp"/>
-
-        <tech.yaog.widgets.ImageEditText
-            android:layout_width="match_parent"
-            android:layout_height="140dp"
-            android:drawableTop="@mipmap/ic_launcher_round"
-            android:hint="123456"
-            app:iee_drawableHeight="match_parent"
-            app:iee_drawableWidth="match_parent"/>
+        <tech.yaog.widgets.NumericKeypad
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
