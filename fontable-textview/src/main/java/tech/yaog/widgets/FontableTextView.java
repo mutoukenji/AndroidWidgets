@@ -3,7 +3,7 @@ package tech.yaog.widgets;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 
 import tech.yaog.widgets.fontabletextview.R;
@@ -13,7 +13,7 @@ import tech.yaog.widgets.fontabletextview.R;
  * Created by mutoukenji on 17-8-28.
  */
 
-public class FontableTextView extends android.support.v7.widget.AppCompatTextView {
+public class FontableTextView extends androidx.appcompat.widget.AppCompatTextView {
 
     private String font;
 

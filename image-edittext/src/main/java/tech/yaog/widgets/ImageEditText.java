@@ -3,7 +3,7 @@ package tech.yaog.widgets;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
@@ -14,7 +14,7 @@ import java.util.Arrays;
  * Created by mutoukenji on 17-7-25.
  */
 
-public class ImageEditText extends android.support.v7.widget.AppCompatEditText {
+public class ImageEditText extends androidx.appcompat.widget.AppCompatEditText {
     protected int drawableWidth = ViewGroup.LayoutParams.WRAP_CONTENT;
     protected int drawableHeight = ViewGroup.LayoutParams.WRAP_CONTENT;
 

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="tech.yaog.widgets.MainActivity">
 
-    <android.support.v7.widget.LinearLayoutCompat
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -44,6 +44,6 @@
             app:iee_drawableHeight="match_parent"
             app:iee_drawableWidth="match_parent"/>
 
-    </android.support.v7.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 </ScrollView>
