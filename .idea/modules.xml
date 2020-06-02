@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidWidgets.iml" filepath="$PROJECT_DIR$/AndroidWidgets.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fontable-textview/fontable-textview.iml" filepath="$PROJECT_DIR$/fontable-textview/fontable-textview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/image-edittext/image-edittext.iml" filepath="$PROJECT_DIR$/image-edittext/image-edittext.iml" />
-      <module fileurl="file://$PROJECT_DIR$/image-text-button/image-text-button.iml" filepath="$PROJECT_DIR$/image-text-button/image-text-button.iml" />
-      <module fileurl="file://$PROJECT_DIR$/numeric-keypad/numeric-keypad.iml" filepath="$PROJECT_DIR$/numeric-keypad/numeric-keypad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidWidgets.iml" filepath="$PROJECT_DIR$/AndroidWidgets.iml" group="AndroidWidgets" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AndroidWidgets/app" />
+      <module fileurl="file://$PROJECT_DIR$/fontable-textview/fontable-textview.iml" filepath="$PROJECT_DIR$/fontable-textview/fontable-textview.iml" group="AndroidWidgets/fontable-textview" />
+      <module fileurl="file://$PROJECT_DIR$/image-edittext/image-edittext.iml" filepath="$PROJECT_DIR$/image-edittext/image-edittext.iml" group="AndroidWidgets/image-edittext" />
+      <module fileurl="file://$PROJECT_DIR$/image-text-button/image-text-button.iml" filepath="$PROJECT_DIR$/image-text-button/image-text-button.iml" group="AndroidWidgets/image-text-button" />
+      <module fileurl="file://$PROJECT_DIR$/numeric-keypad/numeric-keypad.iml" filepath="$PROJECT_DIR$/numeric-keypad/numeric-keypad.iml" group="AndroidWidgets/numeric-keypad" />
     </modules>
   </component>
 </project>

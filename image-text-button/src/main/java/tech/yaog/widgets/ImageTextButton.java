@@ -3,6 +3,7 @@ package tech.yaog.widgets;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.os.Build;
 import androidx.annotation.Nullable;
 import android.util.AttributeSet;
@@ -160,5 +161,21 @@ public class ImageTextButton extends LinearLayout {
                 this.setOrientation(HORIZONTAL);
                 break;
         }
+    }
+
+    public void setText(int resId) {
+        textView.setText(resId);
+    }
+
+    public void setText(CharSequence text) {
+        textView.setText(text);
+    }
+
+    public void setDrawableResource(int resId) {
+        imageView.setImageResource(resId);
+    }
+
+    public void setDrawable(Drawable drawable) {
+        imageView.setImageDrawable(drawable);
     }
 }
