@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidWidgets.iml" filepath="$PROJECT_DIR$/AndroidWidgets.iml" group="AndroidWidgets" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="AndroidWidgets/app" />
-      <module fileurl="file://$PROJECT_DIR$/fontable-textview/fontable-textview.iml" filepath="$PROJECT_DIR$/fontable-textview/fontable-textview.iml" group="AndroidWidgets/fontable-textview" />
-      <module fileurl="file://$PROJECT_DIR$/image-edittext/image-edittext.iml" filepath="$PROJECT_DIR$/image-edittext/image-edittext.iml" group="AndroidWidgets/image-edittext" />
-      <module fileurl="file://$PROJECT_DIR$/image-text-button/image-text-button.iml" filepath="$PROJECT_DIR$/image-text-button/image-text-button.iml" group="AndroidWidgets/image-text-button" />
-      <module fileurl="file://$PROJECT_DIR$/numeric-keypad/numeric-keypad.iml" filepath="$PROJECT_DIR$/numeric-keypad/numeric-keypad.iml" group="AndroidWidgets/numeric-keypad" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidWidgets.iml" filepath="$PROJECT_DIR$/AndroidWidgets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidWidgets.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidWidgets.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidWidgets.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidWidgets.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidWidgets.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidWidgets.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidWidgets.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidWidgets.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fontable-textview/AndroidWidgets.fontable-textview.iml" filepath="$PROJECT_DIR$/.idea/modules/fontable-textview/AndroidWidgets.fontable-textview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fontable-textview/AndroidWidgets.fontable-textview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/fontable-textview/AndroidWidgets.fontable-textview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fontable-textview/AndroidWidgets.fontable-textview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fontable-textview/AndroidWidgets.fontable-textview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fontable-textview/AndroidWidgets.fontable-textview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/fontable-textview/AndroidWidgets.fontable-textview.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image-edittext/AndroidWidgets.image-edittext.iml" filepath="$PROJECT_DIR$/.idea/modules/image-edittext/AndroidWidgets.image-edittext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image-edittext/AndroidWidgets.image-edittext.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/image-edittext/AndroidWidgets.image-edittext.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image-edittext/AndroidWidgets.image-edittext.main.iml" filepath="$PROJECT_DIR$/.idea/modules/image-edittext/AndroidWidgets.image-edittext.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image-edittext/AndroidWidgets.image-edittext.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/image-edittext/AndroidWidgets.image-edittext.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image-text-button/AndroidWidgets.image-text-button.iml" filepath="$PROJECT_DIR$/.idea/modules/image-text-button/AndroidWidgets.image-text-button.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image-text-button/AndroidWidgets.image-text-button.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/image-text-button/AndroidWidgets.image-text-button.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image-text-button/AndroidWidgets.image-text-button.main.iml" filepath="$PROJECT_DIR$/.idea/modules/image-text-button/AndroidWidgets.image-text-button.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image-text-button/AndroidWidgets.image-text-button.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/image-text-button/AndroidWidgets.image-text-button.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/numeric-keypad/AndroidWidgets.numeric-keypad.iml" filepath="$PROJECT_DIR$/.idea/modules/numeric-keypad/AndroidWidgets.numeric-keypad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/numeric-keypad/AndroidWidgets.numeric-keypad.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/numeric-keypad/AndroidWidgets.numeric-keypad.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/numeric-keypad/AndroidWidgets.numeric-keypad.main.iml" filepath="$PROJECT_DIR$/.idea/modules/numeric-keypad/AndroidWidgets.numeric-keypad.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/numeric-keypad/AndroidWidgets.numeric-keypad.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/numeric-keypad/AndroidWidgets.numeric-keypad.unitTest.iml" />
     </modules>
   </component>
 </project>

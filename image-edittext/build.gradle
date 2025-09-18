@@ -1,35 +1,38 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'image-edittext'
+group 'tech.yaog.widgets'
+version '2.0.0'
+def artifactId = 'image-edittext'
 
-    publishedGroupId = 'tech.yaog.widgets'
-    libraryName = 'ImageEdittext'
-    artifact = 'image-edittext'
-
-    libraryDescription = 'An Edittext on Android, provides resize drawable'
-
-    siteUrl = 'https://github.com/mutoukenji/AndroidWidgets'
-    gitUrl = 'https://github.com/mutoukenji/AndroidWidgets.git'
-
-    libraryVersion = '2.0.0'
-
-    developerId = 'mutoukenji'
-    developerName = 'MutouKenji'
-    developerEmail = 'mutoukenji@gmail.com'
-
-    licenseName = 'MIT'
-    licenseUrl = 'https://raw.githubusercontent.com/mutoukenji/AndroidWidgets/master/LICENSE'
-    allLicenses = ["MIT"]
+afterEvaluate {
+    publishing {
+        publications {
+            plugin(MavenPublication) {
+                groupId = project.group
+                artifactId = '$artifactId'
+                version = project.version
+            }
+        }
+        repositories {
+            maven {
+                url = 'https://packages.aliyun.com/65e1a6b12efbead3fd207c64/maven/2456828-release-f4isty'
+                credentials {
+                    username = '5ea791b69b598a8000e528b2'
+                    password = 'lVc99w6J6nTr'
+                }
+            }
+        }
+    }
 }
 
 android {
-    compileSdkVersion 28
+    namespace "tech.yaog.widgets.imageedittext"
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 28
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
 
@@ -46,9 +49,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    api 'androidx.appcompat:appcompat:1.0.2'
-    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.7.0'
+    api 'androidx.appcompat:appcompat:1.7.1'
+    testImplementation 'junit:junit:4.13.2'
 }
 
 tasks.withType(JavaCompile) {
@@ -58,6 +61,3 @@ tasks.withType(JavaCompile) {
 tasks.withType(Javadoc) {
     options.encoding = 'UTF-8'
 }
-
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

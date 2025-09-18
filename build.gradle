@@ -2,13 +2,11 @@
 
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.1'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+        classpath 'com.android.tools.build:gradle:8.10.1'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -16,9 +14,27 @@ buildscript {
 }
 
 allprojects {
+    configurations.all {
+        resolutionStrategy {
+            // 强制统一Kotlin版本
+            force 'org.jetbrains.kotlin:kotlin-stdlib:1.8.22'
+            force 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22'
+            force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22'
+        }
+    }
     repositories {
-        jcenter()
+        mavenCentral()
         google()
+        maven {
+            url 'https://maven.aliyun.com/repository/public'
+        }
+        maven {
+            credentials {
+                username '5ea791b69b598a8000e528b2'
+                password 'lVc99w6J6nTr'
+            }
+            url 'https://packages.aliyun.com/65e1a6b12efbead3fd207c64/maven/2456828-release-f4isty'
+        }
     }
 }
 
